@@ -1,0 +1,21 @@
+.root, .rootPassword input {
+    background-color: rgba(0,0,0,0);
+    margin: 8px 0px 8px 0px;
+    border: 0;
+    border-bottom: 1px solid #F7F7F7;
+    border-radius: 0px;
+}
+
+.rootPassword:hover > input {
+    border-bottom: 1px solid #F7F7F7!important
+}
+
+.root:hover, .rootPassword input:hover {
+    border-bottom: 1px solid #F7F7F7;
+}
+
+.root:focus, .rootPassword input:focus {
+    border: 0;
+    box-shadow: none;
+    background-color: #F7F7F7;
+}

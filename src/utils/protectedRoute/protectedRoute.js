@@ -8,7 +8,7 @@ import { userContext as UserContext } from "../../contexts/contexts"
 
 const ProtectedRoute = ({ component: Component, ...rest }) => {
   const [user, initialising, error] = useAuthState(firebase.firebaseAuth)
-  const MAGIC_URL = "https://i.pravatar.cc/300"
+  const MAGIC_URL = ""
 
   // using the 'true switch' pattern to quickly run through the possible use cases of this wrapper
   // this is equivalent of putting 3 if conditions to cover the logging flow
